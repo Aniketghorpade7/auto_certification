@@ -1,0 +1,29 @@
+{
+  "template_path": "input/certificate_template.png",
+  "data_path": "input/member_data.csv",
+  "font_path": "input/fonts/Questrial-Regular.ttf",
+  "output_folder": "output/",
+  "text_color": "black",
+  "elements": [
+    {
+      "column_name": "FullName",
+      "position": [1200, 750],
+      "font_size": 120,
+      "align": "center"
+    },
+    {
+      "column_name": "Achievement",
+      "position": [1200, 980],
+      "font_size": 50,
+      "align": "center"
+    },
+    {
+      "column_name": "UniqueID",
+      "prefix": "Credential ID: ",
+      "position": [250, 1500],
+      "font_size": 30,
+      "text_color": "gray",
+      "align": "left"
+    }
+  ]
+}

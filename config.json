@@ -1,28 +1,31 @@
 {
   "template_path": "input/certificate_template.png",
   "data_path": "input/member_data.csv",
-  "font_path": "input/fonts/Questrial-Regular.ttf",
+  "font_path": "input/fonts/Cinzel-Regular.ttf",
   "output_folder": "output/",
-  "text_color": "black",
-  "elements": [
+  "text_color": "#E0E0E0",
+"elements": [
     {
       "column_name": "FullName",
-      "position": [1200, 750],
-      "font_size": 120,
+      "position": [1200, 850],
+      "font_path": "input/fonts/PinyonScript-Regular.ttf",
+      "font_size": 150,
+      "text_color": "white",
       "align": "center"
     },
     {
       "column_name": "Achievement",
-      "position": [1200, 980],
-      "font_size": 50,
+      "position": [1200, 1100],
+      "font_size": 45,
+      "text_color": "#D4AF37",
       "align": "center"
     },
     {
       "column_name": "UniqueID",
       "prefix": "Credential ID: ",
-      "position": [250, 1500],
-      "font_size": 30,
-      "text_color": "gray",
+      "position": [200, 1550],
+      "font_size": 25,
+      "text_color": "#A0A0A0",
       "align": "left"
     }
   ]
